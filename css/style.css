@@ -4,11 +4,13 @@
   box-sizing: border-box;
 }
 body {
-  background-color: rgb(89, 127, 153);
+  background-color: rgb(255, 255, 255);
   font-family: "Poppins", sans-serif;
   display: flex;
   justify-content: center;
 }
+
+/* container section  */
 
 .container {
   width: 100%;
@@ -20,15 +22,26 @@ body {
 }
 
 .container .left-side {
-  background-color: rgba(50, 50, 95, 0.473);
+  background-color: rgb(42, 99, 138);
   padding: 40px;
 }
+
+.container .right-side {
+  background-color: #f0f5f2;
+  padding: 40px;
+}
+
+.container .right-side h4 {
+  color: rgb(53, 53, 114);
+  font-weight: 600;
+}
+
+/* profile section  */
+
 .profile-info {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 15px;
-  border-bottom: 2px solid rgb(50, 64, 66);
 }
 
 .profile-info .image {
@@ -45,7 +58,218 @@ body {
   left: 0;
 }
 
-.container .right-side {
-  background-color: #ffffff;
-  padding: 40px;
+/* about section  */
+
+.about {
+  margin-top: 10px;
+  padding: 15px;
+  padding-left: 0;
+  border-bottom: 2px solid rgb(133, 153, 156);
+  color: #ffffff;
+}
+
+.about .about-title {
+  text-transform: uppercase;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.about .intro {
+  font-size: 13px;
+  text-align: left;
+}
+
+/* following section  */
+
+.follow {
+  padding: 15px;
+  padding-left: 0;
+  border-bottom: 2px solid rgb(133, 153, 156);
+  color: #ffffff;
+}
+
+.follow .follow-title {
+  text-transform: uppercase;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.follow li {
+  margin-bottom: 10px;
+  font-size: 13px;
+}
+
+.follow li span {
+  font-size: 15px;
+}
+
+/* reference section  */
+
+.reference {
+  padding: 15px;
+  padding-left: 0;
+  color: #ffffff;
+}
+.reference .reference-title {
+  text-transform: uppercase;
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.refer-1 {
+  margin-bottom: 15px;
+}
+.refer-1 p {
+  font-size: 13px;
+  font-weight: normal;
+}
+.refer-2 p {
+  font-size: 13px;
+  font-weight: normal;
+}
+
+.refer-title {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.reference span {
+  font-size: 13px;
+  font-weight: normal;
+}
+
+.intro-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 15px;
+  border-bottom: 2px solid rgb(147, 170, 212);
+}
+
+.title h2 {
+  font-size: 26px;
+  font-weight: 700;
+}
+.title p {
+  font-weight: 600;
+  font-size: 18px;
+}
+.title p span {
+  color: rgb(103, 100, 248);
+  font-weight: 700;
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact a {
+  text-decoration: none;
+  color: black;
+  padding-bottom: 5px;
+}
+.contact a i {
+  margin-right: 10px;
+  color: rgb(33, 33, 151);
+}
+
+.education-section {
+  margin-top: 20px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid rgb(147, 170, 212);
+}
+
+.bsc-degree {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-top: 20px;
+}
+.versity-info {
+  width: 40%;
+}
+
+.depertment-info {
+  width: 60%;
+}
+
+.depertment-info p {
+  font-size: 14px;
+}
+
+.graphic-degree {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-top: 15px;
+}
+
+.course-info {
+  width: 40%;
+}
+
+.depertment-info {
+  width: 60%;
+}
+
+.work-section {
+  margin-top: 20px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid rgb(147, 170, 212);
+}
+
+.institute {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-top: 20px;
+}
+
+.institute-info {
+  width: 40%;
+}
+
+.post-info {
+  width: 60%;
+}
+
+.post-info p {
+  font-size: 14px;
+}
+
+.graphic-institute {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding-top: 20px;
+}
+
+.technical-section {
+  margin-top: 20px;
+  padding-bottom: 15px;
+  border-bottom: 2px solid rgb(147, 170, 212);
+}
+
+.technical-skill {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.skill {
+  padding: 5px 20px;
+}
+.skill h4 {
+  margin-left: -18px;
+}
+
+.language {
+  display: flex;
+  padding-top: 20px;
+}
+
+.language p {
+  padding-left: 10px;
+  font-weight: 600;
 }
